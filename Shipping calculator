@@ -1,1 +1,8 @@
-
+def shipping_cost(x):
+    if x == 1:
+        costs = 10.95
+        print("$",costs)
+    elif x > 1:
+        x = x - 1
+        costs = x * 2.95 + 10.95
+        print("$", costs)
